@@ -1,0 +1,35 @@
+package basic1;
+class Student{
+	int id;
+	String  name;
+	double marks;
+	String email;
+	String dep;
+	
+	
+	
+}
+
+public class fristprogramming {
+
+	public static void main(String[] args) {
+		Student s1=new Student();
+		Student s2=new Student();
+		s1.id=461;
+		s1.name="siva satyanarayana";
+		s1.marks=88;
+		s1.email="19p31a0461@acet.ac.in";
+		s1.dep="ECE";
+		s2.id=401;
+		s2.name="sai kiriti";
+		s2.marks=98;
+		s2.email="19p31a0401@acet.ac.in";
+		s2.dep="ECE";
+		System.out.println(s1.id+" "+s1.name+" "+s1.marks+" "+s1.email+" "+s1.dep);
+		System.out.println(s2.id+" "+s2.name+" "+s2.marks+" "+s2.email+" "+s2.dep);
+		
+		
+
+	}
+
+}
